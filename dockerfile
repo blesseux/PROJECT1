@@ -4,4 +4,4 @@ RUN pip3 install requests
 RUN mkdir /APP
 WORKDIR /APP
 RUN git clone https://github.com/blesseux/PROJECT1.git
-CMD [ "python3", "PROJECT1/code-python.py" ]
+CMD [ "PROJECT1/code-python.py" ]
