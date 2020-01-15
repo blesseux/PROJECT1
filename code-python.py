@@ -1,10 +1,9 @@
 #!/usr/bin/python3.4
 
-import random
+import random, requests, json
 result=random.random() * 100
 print(result)
-return(result)
-import requests, json
+
 
 x = {}
 x["id-p"] = "RABBITMQ"
