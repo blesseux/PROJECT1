@@ -1,7 +1,7 @@
 #!/usr/bin/python3.4
 
 import random, requests, json
-result=random.random() * 100
+result=random.random() * 1000
 print(result)
 
 
